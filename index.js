@@ -52,7 +52,8 @@ module.exports = function prerender(bundler) {
         const file = path.resolve(outputDirectory, 'index.html');
         await fs.mkdir(outputDirectory, { recursive: true });
         const { html } = await htmlnano.process(route.html.trim());
-        await fs.writeFile(file, html);
+        const outFile = path.resolve(outputDirectory, 'prerender.html');
+        await fs.writeFile(outFile, html);
       }),
     );
 
