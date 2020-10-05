@@ -1,5 +1,5 @@
 {
-  "name": "parcel-plugin-prerender",
+  "name": "@moynihan/parcel-plugin-prerender",
   "author": "ABuffSeagull <reecevanatta@gmail.com>",
   "description": "prerender plugin for parcel",
   "homepage": "https://github.com/ABuffSeagull/parcel-plugin-prerender",
